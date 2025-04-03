@@ -18,8 +18,6 @@ class Config:
     CHAT_UPLOAD_FOLDER = os.path.join(BASE_DIR, 'app/static/uploads/chat_files')
     
     MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max file size 
-    GOOGLE_GEMINI_API_KEY = 'AIzaSyAGJY8OIgX5r0h7rVXa30qUmmMFsRA8lr0'
-    
-    # Razorpay Configuration
-    RAZORPAY_KEY_ID = 'rzp_test_1vZK3GexmGW5zt'
-    RAZORPAY_KEY_SECRET = 'eIKYygydEQ5iicHT2N6gaVuC'
+    GOOGLE_GEMINI_API_KEY = 'AIzaSyAGJY8OIgX5r0h7rVXa30qUmmMFsRA8lr0' 
+    RAZORPAY_KEY_ID = 'rzp_test_0NbQGdFY24Qd5G'
+    RAZORPAY_KEY_SECRET = 'Z1msuCYPvMKWLt8njWSpKpQK'
